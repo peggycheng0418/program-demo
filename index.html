@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>節目｜公視新聞網</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-button menu-button" aria-label="開啟選單"><img src="assets/menu.svg" alt=""></button>
+      <nav class="navigation" aria-label="主要導覽">
+        <a class="logo" href="#"><img src="assets/pts-logo.svg" alt="公視新聞網"></a>
+        <a class="current" href="#programs">節目</a>
+      </nav>
+      <a class="login" href="#"><span>登入</span><i><img src="assets/member.svg" alt=""></i></a>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumb" aria-label="麵包屑"><a href="#">首頁</a><span><img src="assets/slash.svg" alt="/"></span><strong>節目</strong></nav>
+    <section id="programs" class="program-layout" aria-label="公視新聞節目">
+      <div class="program-list" role="list"></div>
+      <aside class="latest-panel" aria-live="polite">
+        <div class="latest-content">
+          <h3 class="latest-name"></h3>
+          <div class="latest-media"><img class="latest-image" src="assets/programs/latest-cover.png" alt="最新節目內容"></div>
+          <ol></ol>
+          <a class="more-button" href="#"><span>更多節目內容</span><i><img src="assets/arrow-right.svg" alt=""></i></a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+</html>
